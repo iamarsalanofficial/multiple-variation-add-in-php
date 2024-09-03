@@ -1,0 +1,41 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, form, input, select, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Add some padding */
+body {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Style headings */
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+/* Style forms */
+form label {
+    font-weight: bold;
+}
+
+form input, form select, form textarea, form button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
